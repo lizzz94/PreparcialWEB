@@ -22,7 +22,7 @@ interface Personaje {
   varia: Varita
 }
 
-interface PersonajeDetalle {
+interface PersonajeDetail {
   character: Personaje
   dict: Record<string, string>
 }

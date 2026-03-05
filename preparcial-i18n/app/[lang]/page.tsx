@@ -1,6 +1,5 @@
 import { Metadata } from "next"
 import { getDictionary } from "../../lib/dictionaries/getDictionary"
-import CharacterList from "../../components/CharacterList"
 
 export async function generateMetadata({
   params,
@@ -31,7 +30,6 @@ export default async function HomePage({
       <p className="text-center text-gray-600 text-sm mb-6">
         {dict.charactersDesc}
       </p>
-      <CharacterList lang={lang} />
     </div>
   )
 }
