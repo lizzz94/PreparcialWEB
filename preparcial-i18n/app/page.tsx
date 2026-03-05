@@ -1,18 +1,8 @@
-import { getDictionary } from '../lib/dictionaries/getDictionary';
+import Image from "next/image";
 
-export default async function Page({
-  params
-}: {
-  params: { lang: 'en' | 'es' }; // lang solo puede ser en o es
-}) {
-
-  const dict = await getDictionary(params.lang)
-
-  if (!dict) {
-    return <div>Error al cargar las traducciones.</div>
-  }
-
+export default function Home() {
   return (
+<<<<<<< HEAD
 <<<<<<< HEAD
     <main>
       <h1>{dict.welcome}</h1>
@@ -21,6 +11,8 @@ export default async function Page({
   )
 }
 =======
+=======
+>>>>>>> parent of cc8b8cd (preliminar)
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <Image
@@ -81,5 +73,9 @@ export default async function Page({
       </main>
     </div>
   );
+<<<<<<< HEAD
 }
 >>>>>>> parent of f98e93a (preliminar)
+=======
+}
+>>>>>>> parent of cc8b8cd (preliminar)

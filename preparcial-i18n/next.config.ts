@@ -1,18 +1,7 @@
-import type { NextConfig } from 'next'
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  i18n: {
-    locales: ['en', 'es'],
-    defaultLocale: 'es',
-  },
-  async rewrites() {
-    return [
-      {
-        source: '/:lang',
-        destination: '/:lang',
-      },
-    ]
-  },
-}
+  /* config options here */
+};
 
-export default nextConfig
+export default nextConfig;
