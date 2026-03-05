@@ -1,5 +1,22 @@
 {
-    "welcome": "Welcome",
-    "profile": "Profile"
     
+  "welcome": "Welcome",
+  "profile": "Profile",
+  "language": "Language",
+  "characters": "Harry Potter Characters",
+  "charactersDesc": "Explore the voldemort magical universe of Harry Potter: a complete list of characters with their house, species and main data.",
+  "house": "House",
+  "gender": "Gender",
+  "wand": "Wand",
+  "wood": "Wood",
+  "core": "Core",
+  "length": "Length",
+  "lengthUnit": "cm",
+  "noInfo": "No information",
+  "backHome": "Back to home",
+  "noHouse": "No house",
+  "detailDesc": "Consult detailed information about each character in the magical world: house, actor/actress, wand, species, ancestry and other relevant data.",
+  "footerLegal": "© 2026 Harry Potter App. All rights reserved.",
+  "footerDev": "Developed for: ISIS3710"
+  
 }

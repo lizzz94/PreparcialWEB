@@ -1,14 +1,21 @@
 import type { NextConfig } from "next"
 
 const nextConfig: NextConfig = {
-  async redirects() {
-    return [
+  images: {
+    remotePatterns: [
       {
-        source: "/",
-        destination: "/en", // si no se detecta idioma queda ingles por defecto
-        permanent: false,
+        protocol: "https",
+        hostname: "hp-api.onrender.com",
       },
-    ]
+      {
+        protocol: "https",
+        hostname: "www.clipartmax.com",
+      },
+      {
+        protocol: "https",
+        hostname: "ik.imagekit.io",
+      },
+    ],
   },
 }
 
