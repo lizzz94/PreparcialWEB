@@ -6,4 +6,4 @@ const dictionaries = {
 }
 
 export const getDictionary = async (lang: 'en' | 'es') => 
-    dictionaries[lang]() 
+    dictionaries[lang]()
